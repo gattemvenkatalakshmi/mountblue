@@ -1,0 +1,165 @@
+.              .bashrc  Documents  Pictures  snap
+..             .cache   Downloads  .pki      .sudo_as_admin_successful
+.bash_history  .config  .local     .profile  Templates
+.bash_logout   Desktop  Music      Public    Videos
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~$ ls -l
+total 36
+drwxr-xr-x 2 venkatalakshmi venkatalakshmi 4096 Dec 14 15:42 Desktop
+drwxr-xr-x 2 venkatalakshmi venkatalakshmi 4096 Dec 14 15:42 Documents
+drwxr-xr-x 2 venkatalakshmi venkatalakshmi 4096 Dec 14 16:56 Downloads
+drwxr-xr-x 2 venkatalakshmi venkatalakshmi 4096 Dec 14 15:42 Music
+drwxr-xr-x 3 venkatalakshmi venkatalakshmi 4096 Dec 14 15:45 Pictures
+drwxr-xr-x 2 venkatalakshmi venkatalakshmi 4096 Dec 14 15:42 Public
+drwx------ 5 venkatalakshmi venkatalakshmi 4096 Dec 14 16:04 snap
+drwxr-xr-x 2 venkatalakshmi venkatalakshmi 4096 Dec 14 15:42 Templates
+drwxr-xr-x 2 venkatalakshmi venkatalakshmi 4096 Dec 14 15:42 Videos
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~$ mkdir dir1
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~$ ls
+Desktop  Documents  Music     Public  Templates
+dir1     Downloads  Pictures  snap    Videos
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~$ mkddir dir2
+Command 'mkddir' not found, did you mean:
+  command 'mkdir' from deb coreutils (8.32-4.1ubuntu1)
+Try: sudo apt install <deb name>
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~$ mkdir dir2
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~$ cd dir1
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/dir1$ pwd
+/home/venkatalakshmi/dir1
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/dir1$ cd
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~$ cd dir1
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/dir1$ cd ..
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~$ cd /
+venkatalakshmi@venkatalakshmi-Inspiron-5567:/$ ls
+bin    dev   lib    libx32      mnt   root  snap      sys  var
+boot   etc   lib32  lost+found  opt   run   srv       tmp
+cdrom  home  lib64  media       proc  sbin  swapfile  usr
+venkatalakshmi@venkatalakshmi-Inspiron-5567:/$ cd
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~$ ls
+Desktop  dir2       Downloads  Pictures  snap       Videos
+dir1     Documents  Music      Public    Templates
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~$ cd~
+Command 'cd~' not found, did you mean:
+  command 'cdw' from deb cdw (0.8.1-2)
+  command 'cdo' from deb cdo (2.0.4-1)
+  command 'cd5' from deb cd5 (0.1-4)
+  command 'cde' from deb cde (0.1+git9-g551e54d-1.2)
+  command 'cdb' from deb tinycdb (0.78build3)
+  command 'cdp' from deb irpas (0.10-9)
+  command 'cdi' from deb cdo (2.0.4-1)
+Try: sudo apt install <deb name>
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~$ cd ~
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~$ cd ~dir1/
+bash: cd: ~dir1/: No such file or directory
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~$ cd ~/dir2
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/dir2$ cd
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~$ cd dir1
+
+
+
+
+
+
+
+
+
+
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~$ mkdir hello
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~$  cd hello/
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello$ touch five
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello$ touch a.txt
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello$ 
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello$ mkdir five
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello$ cd five
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello/five$ ls
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello/five$ ls -l
+total 0
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello/five$ cd..
+cd..: command not found
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello/five$ cd/
+bash: cd/: No such file or directory
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello/five$ cd\
+> 
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~$ cd hello
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello$ cd five
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello/five$ cd ..
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello$ 
+
+
+
+
+
+
+
+
+
+
+
+
+ *********answer*********
+ 
+ 
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~$ ls
+Desktop    Downloads  Music     Public  Templates
+Documents  hello      Pictures  snap    Videos
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~$ cd hello
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello$ mkdir five
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello$ cd five
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello/five$ mkdir six
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello/five$ cd six 
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello/five/six$ touch c.txt
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello/five/six$ mkdir seven
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello/five/six$ cd seven
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello/five/six/seven$ touch error.log
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello/five/six/seven$ cd ..
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello/five/six$ cd ..
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello/five$  cd ..
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~$ cd hello
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello$ mkdir one
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello$ cd one
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello/one$ touch a.txt b.txt
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello/one$ mkdir two
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello/one$ cd two
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello/one/two$ touch d.txt
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello/one/two$ mkdir three
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello/one/two$ cd three
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello/one/two/three$ touch e.txt
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello/one/two/three$ mkdir four
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello/one/two/three$ cd four
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello/one/two/three/four$ touch acccess.log
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello/one/two/three/four$ 
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello$ ls
+five  one
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello$ ls -a
+.  ..  five  one
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello$ ls -l
+total 8
+drwxrwxr-x 3 venkatalakshmi venkatalakshmi 4096 Dec 14 22:32 five
+drwxrwxr-x 3 venkatalakshmi venkatalakshmi 4096 Dec 14 23:05 one
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~$ cd hello
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello$ find .-name '*.log'  -delete
+find: ‘.-name’: No such file or directory
+find: ‘*.log’: No such file or directory
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello$ find . -name '*.log' -delete
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello$ cd one
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello/one$ nano a.txt
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello/one$ cat a.txt
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello/one$ cat a.txt
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello/one$ cat >> a.txt 
+Unix is a family of multitasking, multiuser computer operating systems that derive from the original AT&T Unix, development starting in the 1970s at the Bell Labs research center by Ken Thompson, Dennis Ritchie, and others
+ ^Z
+[1]+  Stopped                 cat >> a.txt
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello/one$ cd..
+cd..: command not found
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello/one$ cd ..
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello$ rm -r five 
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello$ ls
+one
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello$ mv one uno
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello$ ls
+uno
+venkatalakshmi@venkatalakshmi-Inspiron-5567:~/hello$ 
+
+
+
+
+
